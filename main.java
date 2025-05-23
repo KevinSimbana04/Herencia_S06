@@ -16,16 +16,27 @@ public class main {
         //Objeto Docente
         Docente docente=new Docente("1234","Kevin","quito","ks@gmail.com","096874", "Sistemas","10");
 
+        //objeto Docente virtual
+        Docente_virtual D_virtual=new Docente_virtual("12314","Nancy","Santa Elena","np@gamil.com","Quimica","7 a 10","Nomenclaruta","google meet");
+
 
         //llamar a las clases
+        System.out.println("----------Datos Persona---------");
         persona.Mostrar_informacion();
         System.out.println();
+        System.out.println("----------Datos Estudiante---------");
         estudiante.Mostrar_informacion();
         System.out.println();
+        System.out.println("----------Datos Estudiante Presencial---------");
         E_presencial.Mostrar_informacion();
         System.out.println();
+        System.out.println("----------Datos Estudiante Virtual---------");
         E_virtual.Mostrar_informacion();
         System.out.println();
+        System.out.println("----------Datos Docente---------");
         docente.Mostrar_informacion();
+        System.out.println();
+        System.out.println("----------Datos Docente Virtual---------");
+        D_virtual.Mostrar_informacion();
     }
 }
